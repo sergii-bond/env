@@ -1,0 +1,14 @@
+[core]
+	editor = vim
+    excludesfile = ~/.gitignore
+#	abbrev = 8
+[diff]
+	tool = vimdiff
+[color]
+	ua = auto
+[log]
+	abbrevCommit = yes
+[push]
+	default = simple
+[merge]
+	tool = vimdiff

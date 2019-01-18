@@ -1,0 +1,11 @@
+
+base=`pwd`
+echo "Current directory: $base"
+echo "Home directory: $HOME"
+
+for f in ".vim" ".vimrc" ".gitignore" ".inputrc" ".tmux.conf"
+do 
+	echo "Creating a link to $f"
+	ln -s $base/$f $HOME/$f
+done
+
